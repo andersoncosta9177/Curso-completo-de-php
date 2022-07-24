@@ -1,0 +1,1 @@
+<p>Testando o require</p>

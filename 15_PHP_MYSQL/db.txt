@@ -1,0 +1,73 @@
+<!-- -- create database cursoPhp;
+-- show databases;
+-- show tables;
+-- desc tables;
+
+-- create table user(
+-- nome varchar(30)  not null
+-- idade int not null
+-- );
+
+
+-- drop database cursoPhp;
+-- drop table user;
+
+
+-- //alterando uma tabela  adicionando uma coluna
+-- ALTER TABLE user  add column email varchar;
+
+-- alterando uma tabela, removendo uma coluna
+-- ALTER TABLE user drop column email;
+
+
+-- //constrainsts
+-- A NOT NULL e uma constrainst, nao permite que o dado adicionado esteja vazio
+-- EX: email:  varchar NOT NULL;
+-- A UNIQUE É UMA constrainst, garante que todos os valores adicionado sejam unico;
+-- ex: email varchar UNIQUE;
+
+-- //inserindo dados na tabela user;
+-- INSERT INTO user VALUES("MGUEL",12);
+
+
+-- //PRIMARY KEY é uma constrainst;
+-- As chaves primarias devem ter valores unicos e na podem ser nulas;
+
+
+
+-- //selecionando dados
+-- select * from user;
+
+-- //selecionando dados com filtro where;
+-- select * from user where cidade = 'SAO PAULO';
+-- select * from user where cidade = 'SAO PAULO' AND sexo = 'f';
+
+
+
+-- -- AND, OR 
+
+-- -- OR 
+-- SELECT * FROM ITENS WHERE ID = 2 OR ID =5;
+
+-- -- AND 
+-- SELECT * FROM ITENS WHERE ID = 2 AND email == 'anderson@gmail.com';
+
+
+-- -- ORDER BY 
+-- EX: 
+-- SELECT * FROM user ORDER BY DESC ; (SELECIONA  OS DADOS PELO ALFABETO EM ORDEM DECRESCENTE)
+-- SELECT * FROM user ORDER BY ASC ; (SELECIONA  OS DADOS PELO ALFABETO EM ORDEM CRESCENTE)
+
+
+-- -- ATUALIZANDO DADOS  COM UPDATE;
+-- UPDATE user SET NOME = 'MIGUEL' WHERE ID = 2322;
+-- SE DAR UPDATE SEM WHERE ATUALIZA TODA A TABELA;
+
+
+
+-- //DELETANDO DADOS;
+-- DELETE  FROM user WHERE ID = 222;
+
+
+-- //CRIANDO USUARIOS; -->
+

@@ -1,0 +1,102 @@
+/* h1{
+  color: red;
+}
+
+p{
+    color: blue;
+   
+}
+
+h2{
+    color: green;
+    font-size: 21px;
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow:  1px 1px 1px black;
+} */
+
+
+/* .p-texto{
+    color: red;
+    font-weight: bold;
+} */
+
+
+/* formularios  */
+
+/* form{
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+
+
+} */
+
+/* form label{
+    text-align: center;
+    color: grey;
+}
+
+form input{
+    border-radius:  4px;
+    margin-left: 5px;
+    height: 20px;
+    border: none;
+    padding: 6px;
+
+}
+
+form input:focus{
+    border: none;
+    padding: 6px;
+
+} */
+/* 
+.background{
+    height: 30px;
+    background: url('../18_CSS/img/dragao.jpg');
+ }
+
+#title{
+    background-color: black;
+    color: white;
+} */
+
+
+
+
+
+/* box model  */
+/* .boxModel1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 30px;
+    border: 3px solid blue;
+    border-width: 5px 10px;
+    border-radius: 100px;
+} */
+/* body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.boxPadding {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+} */
+
+.boxPadding{
+    border: 1px solid red;
+    display: inline-block;
+    background-color: blue;
+    width: 300px;
+    height: 400px;
+
+}
